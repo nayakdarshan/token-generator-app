@@ -36,7 +36,7 @@ Follow these steps to clone and run the project locally:
 3. Navigate to the project directory:
 
    ```bash
-   cd your-repo-name
+   cd token-generator-app
    ```
 
 ### Install Dependencies
