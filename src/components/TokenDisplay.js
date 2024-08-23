@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Container, Grid,Typography } from '@mui/material';
+import Token from './Token';
 
-function TokenDisplay() {
+const TokenDisplay = ({ tokens, perRow, color }) => {
   return (
-    <div>
-      <h1>TokenDisplay</h1>
-    </div>
-  )
-}
+    <Container>
+        <Grid container spacing={2} className='my-3'>
+        {tokens.map((token, index) => (
+            <Token key={index} value={token} perRow={perRow} color={color} />
+        ))}
+        </Grid>
+    </Container>
+  );
+};
 
-export default TokenDisplay
+export default TokenDisplay;
