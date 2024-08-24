@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid,Typography } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import Token from './Token';
 
 const TokenDisplay = ({ tokens, perRow, color }) => {
