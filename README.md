@@ -30,13 +30,13 @@ Follow these steps to clone and run the project locally:
 2. Clone the repository using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/nayakdarshan/token-generator-app.git
    ```
 
 3. Navigate to the project directory:
 
    ```bash
-   cd your-repo-name
+   cd token-generator-app
    ```
 
 ### Install Dependencies
